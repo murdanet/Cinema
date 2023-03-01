@@ -32,7 +32,7 @@ public class MySQLConnection {
 
     private static void insertarPelis() {
         cinema.insertarPelis();
-      
+
         String query = "INSERT INTO films(Titol, DataEstrena, Pais, idDirector) " +
                 "VALUES('" + cinema.getTitol() + "', '" + cinema.getData() + "', '" + cinema.getPais() + "', 1);";
 
